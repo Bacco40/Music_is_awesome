@@ -57,9 +57,10 @@ button{
     color: #f9faf8;
     padding: 8px 48px;
     border-radius: 8px;
+    border: 2px solid #f9faf8;
 }
 .button{
-    border: 1px solid #3882f6;
+    border: 2px solid #3882f6;
 }
 .right-part{
     display: flex;
@@ -85,4 +86,59 @@ button{
     width: 250px;
     border-radius: 5%;
     border: 3px solid #1f2937;
+}
+.info{
+    color: #1f2937;
+    text-align: center;
+    margin-top: 16px;
+    width: 250px;
+}
+.about{
+    padding: 125px 100px 125px 100px;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+    padding-top: 32px;
+    text-align: center;
+}
+.author{
+    text-align: right;
+    font-weight: bold;
+    margin-top: 16px;
+    color: #1f2937;
+    font-size: 24px;
+}
+.contact{
+    margin: 80px 100px 80px 100px;
+    padding: 48px 120px 48px 120px;
+    background-color: #3882f6;
+    border-radius: 25px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+}
+.tit{
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #f9faf8;
+    font-size: 24px;
+}
+.subt{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.footer{
+    background-color: #1f2937;
+    padding: 32px 0px ;
+    text-align: center;
+    color: #e5e7eb;
 }
